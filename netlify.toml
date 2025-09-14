@@ -1,9 +1,0 @@
-[build]
-  publish = "."
-
-[build.environment]
-  NODE_ENV = "production"
-
-# Skip build processes for pure HTML sites
-[build.processing]
-  skip_processing = true
